@@ -1,0 +1,17 @@
+------------------------------------------------------------------
+utilizei de programas como nodem e handlesbars para facilitar o processo pois ainda nao tinha conhecimento dessa linguagem
+
+*express
+*express-handlebars
+*body-parser
+*nodemon
+*sequelize
+
+
+---------------------------------------------------------------------
+
+tive que implementar o html dentro dos proprios itens
+
+-----------------------------------------------------------------------
+
+utilizei o banco de dados mysql pois está sendo muito utilizado atualmente pela sua conectividade ampla e tambem pois ele tem ferramentas mais sofisticadas e que fascilitam o trabalho.

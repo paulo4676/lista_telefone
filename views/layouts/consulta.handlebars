@@ -1,0 +1,36 @@
+<div style="display: flex;justify-content: space-between;margin-left: 29em;">
+    <button
+        style=" width: 50%;height: 60px;background: #0d98ba;border: 0;border-radius: 8px;color: #fff;font-weight: 700;text-align: center;text-decoration: none;font-size: 18px;margin: 5px 2px;transition: filter 0.2s;"
+        type="submit">lista de pagamentos</button>
+</div>
+
+<div
+    style="width: 100%;max-width: 1180px;padding: 0 30px;margin: 32px auto;background: #f1f1f1;">
+    <div
+        style="width: 100%;padding: 15px;background: #f0f0f5;box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);border-radius: 8px;display: flex;justify-content: center;align-items: center;">
+        <form style="width: 100%;max-width: 700px;">
+
+            <div>
+                <!-- comando que recebe as informaçoes de Posts e lista eles -->
+                {{#each Posts}}
+                    <hr>
+                    <h5>Nome:</h5>{{Nome}}<br>
+                    <h5>Email:
+                    </h5>{{Email}}<br>
+                    <h5>Telefone:</h5>{{Telefone}}<br>
+                    <h5>Endereço Residencial:</h5>{{Residencial}}<br>
+                    <h5>Endereço Comercial:</h5>{{Comercial}}<br>
+                    <hr>
+                {{/each}}
+
+            </div>
+        </form>
+    </div>
+
+    <!-- Read-me -->
+    <h5>eu nao consegui fazer os valores aparecerem pelo nodemon ele aparece a
+        requisiçao sql porem mesmo usando o each os resultados nao aprecem, caso saiba a
+        soluçao me mande um feedback com a resposta. eu nunca tinha trabalho com o node
+        antes nem com java orientado a objetos gostei muito obrigado espero que entenda.
+    </h5>
+</div>
