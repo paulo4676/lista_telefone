@@ -2,6 +2,10 @@
 abra o navegador e instale o nodejs caso nao tenha, logo em seguida abra o mysql workbench, dps baixe o xammp ou usbw para rodar o servidor mysql.
 em seguida abra o visual studio code e abra a pasta do projeto nele, caso precise instalar os pacotes que contem nele vou deixar os links de download aqui em baixo.
  
+ 
+ caso nao conheça omysql workbeck aconselho copiar o codigo do banco que disponibilizei e colar ele na area em branco em seguida basta clicar no raio em cima !!!
+ 
+ 
  #instaladores#
              
              
