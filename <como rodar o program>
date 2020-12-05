@@ -1,0 +1,39 @@
+------------------------------------instalações------------------------------------
+abra o navegador e instale o nodejs caso nao tenha, logo em seguida abra o mysql workbench, dps baixe o xammp ou usbw para rodar o servidor mysql.
+em seguida abra o visual studio code e abra a pasta do projeto nele, caso precise instalar os pacotes que contem nele vou deixar os links de download aqui em baixo.
+ 
+ #instaladores#
+             
+             
+ framework
+//----------------------------//
+ npm install express --save
+ 
+ conectividade mysql
+ //-----------------------------//
+ npm install sequelize --save
+ npm install --save mysql2
+ 
+ frame work de forms
+ //---------------------------------//
+ npm install --save express-handlebars
+ 
+ 
+ 
+ frame work de trafego de informaçao pelas aplicaçoes
+ //----------------------------------//
+ npm --save body-parser
+ //------------------------------------//
+ 
+ caso nao precise instalar basta abrir o xammp ligar o servidor sql e abrir o banco 
+ logo apos abra seu prompt de comando e va ate aonde o arquivo server está localizado
+ no meu caso c: user/paulo/desktop/lista_telefonica/
+ ele esta la dentro apos chegar la pelo terminal digite node server.js e o servidor irá iniciar caso nenhum dos pacotes listados acima esteja faltando 
+ apos isso basta entar em seu navegador e digitar localhost:8081 nao utilizei a porta 80 nem a 8080 pois as vezes tem processos na rede que podem estar ocupando essa faixa como o skype.
+ agr basta vc se cadastrar. leia a mensagem que deixei no final da pagina de listagem.
+ 
+ irei deixar o banco de dados em codigo e model para usar o que achar melhor caso use o model basta selecior open model ele ira abrir uma tabela nao a alteré !!!
+ na guia database estara escrito fowarding engeenir basta clicar que ele convertera o modelo em banco altomaticamente é so dar next caso precise alterar o local do banco basta ir na pasta model dentro do projeto e ir em Db e subistituir as informaões a ordem é BANCO USUARIO E SENHA logo em baixo TIPO DE CONEXÃO  se é local ou remota
+ e dps o tipo do banco.
+ 
+ caso nao compreenda a explição meu contato é (11)948142034
