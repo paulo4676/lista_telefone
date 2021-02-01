@@ -15,6 +15,7 @@ const Post = require('./models/Post');
 // hadlebars config
 app.engine('handlebars', handlebars({defaultLayout: 'main'}))
 app.set('view engine', 'handlebars')
+app.use(express.static('public'));
 //
 
 //body-parserconfig
